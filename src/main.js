@@ -21,7 +21,7 @@ Vue.config.productionTip = false
 const router = new VueRouter({
     mode: 'history',
     routes: [{
-            path: '/todoList',
+            path: '/todoList/:name',
             component: TodoListMain
         },
         {
